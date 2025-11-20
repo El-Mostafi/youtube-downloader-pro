@@ -18,6 +18,7 @@ A modern, professional desktop application for downloading YouTube videos with q
 ## Screenshots
 
 The application features:
+
 - Clean URL input field
 - One-click format fetching
 - Radio button quality selection with file size info
@@ -33,39 +34,45 @@ The application features:
 ## Installation
 
 1. **Clone or navigate to the project directory**
+
    ```powershell
    cd d:\Documents\DownloadYTVideosByPy
    ```
 
 2. **Install required packages**
+
    ```powershell
    C:/Python312/python.exe -m pip install -r requirements.txt
    ```
 
 3. **Install FFmpeg (Recommended for best quality)**
-   
+
    **Option A - Easy Install (Recommended):**
+
    ```powershell
    .\install_ffmpeg.ps1
    ```
-   
+
    **Option B - Manual Install:**
+
    ```powershell
    winget install --id=Gyan.FFmpeg -e
    ```
-   
+
    After installation, restart your terminal for changes to take effect.
-   
+
    > **Note:** FFmpeg enables merging high-quality video and audio streams and fixes video playback issues. Without it, only pre-combined formats will be available.
 
 ## Usage
 
 1. **Run the application**
+
    ```powershell
    C:/Python312/python.exe app.py
    ```
 
 2. **Download a single video**:
+
    - Paste a YouTube video URL in the input field
    - Click "Fetch Available Qualities" to retrieve available formats
    - Select your preferred quality from the list
@@ -93,7 +100,9 @@ The application features:
 ## Features Explained
 
 ### Quality Selection
+
 The app automatically fetches all available video qualities including:
+
 - Resolution (144p, 240p, 360p, 480p, 720p, 1080p, 1440p, 2160p/4K, etc.)
 - File format (MP4, WEBM, etc.)
 - Frame rate (30fps, 60fps, etc.)
@@ -101,6 +110,7 @@ The app automatically fetches all available video qualities including:
 - Audio indicator (🔊) showing formats with built-in audio
 
 ### Download Process
+
 - Multiple format options available: MP4 (H.264), WEBM (VP9), with or without audio
 - Formats with 🔊 include audio and are ready to play immediately
 - Video-only formats are automatically merged with audio using ffmpeg
@@ -116,19 +126,23 @@ The app automatically fetches all available video qualities including:
 ## Troubleshooting
 
 ### Module Not Found Error
+
 If you get a "No module named 'customtkinter'" or similar error:
+
 ```powershell
 C:/Python312/python.exe -m pip install --upgrade pip
 C:/Python312/python.exe -m pip install -r requirements.txt
 ```
 
 ### Video Download Fails
+
 - Ensure you have a stable internet connection
 - Check that the URL is a valid YouTube video link
 - Some videos may be age-restricted or geographically limited
 - Try updating yt-dlp: `C:/Python312/python.exe -m pip install --upgrade yt-dlp`
 
 ### Application Won't Start
+
 - Verify Python 3.12 is installed: `C:/Python312/python.exe --version`
 - Check that all dependencies are installed properly
 - Try running with: `C:/Python312/python.exe -u app.py` for verbose output
@@ -154,6 +168,7 @@ This project is for educational purposes. Please respect YouTube's Terms of Serv
 ## Support
 
 For issues or questions:
+
 1. Check the Troubleshooting section above
 2. Ensure all dependencies are up to date
 3. Verify your Python version is compatible
