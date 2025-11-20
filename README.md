@@ -1,75 +1,111 @@
-# YouTube Video Downloader
+# YouTube Downloader Pro 🎥
 
-A modern, professional desktop application for downloading YouTube videos with quality selection. Built with Python using CustomTkinter for a sleek, dark-themed UI and yt-dlp for reliable video downloading.
+A modern, professional desktop application for downloading YouTube videos and audio with quality selection. Built with Python using CustomTkinter for a sleek, dark-themed UI and yt-dlp for reliable downloading.
+
+## ⚡ Quick Start (For New Users)
+
+**Just cloned this repository? Get started in ONE click:**
+
+### Windows:
+
+1. Double-click `QUICK_START.bat`
+2. Wait for automatic setup (installs dependencies, checks FFmpeg)
+3. App launches automatically!
+
+### Alternative (PowerShell):
+
+```powershell
+.\setup_and_run.ps1
+```
+
+That's it! The script handles everything:
+
+- ✅ Checks Python installation
+- ✅ Installs required packages
+- ✅ Installs FFmpeg if needed
+- ✅ Creates desktop shortcut
+- ✅ Launches the app
 
 ## Features
 
 - 🎨 **Modern UI**: Dark-themed, professional interface using CustomTkinter
-- 🎬 **Quality Selection**: Fetch and choose from all available video qualities
-- 📋 **Playlist Support**: Download entire playlists or select specific videos
+- 🎬 **Video Download**: Fetch and choose from all available video qualities (144p-4K)
+- 🎵 **Audio Download**: Extract audio as MP3 with quality selection
+- 📋 **Playlist Support**: Download entire playlists or select specific videos/audio
 - 📊 **Progress Tracking**: Real-time download progress with speed and ETA
-- 📁 **Custom Download Location**: Choose where to save your videos
-- 📝 **Video Information**: Display video title and format details
+- 📁 **Custom Download Location**: Choose where to save your files
+- 📝 **Detailed Information**: Display video title, format, codec, and file size
 - ⚡ **Fast & Reliable**: Uses yt-dlp, the most reliable YouTube downloader
-- 🔊 **Smart Format Selection**: Works with or without ffmpeg
+- 🔊 **Universal Audio**: Automatic AAC/MP3 conversion for all devices
 - 🎥 **High Quality**: FFmpeg support for best quality video+audio merging
-- ✅ **Batch Downloads**: Download multiple videos with quality presets
+- ✅ **Batch Downloads**: Download multiple videos/audio with quality presets
 
 ## Screenshots
 
 The application features:
 
-- Clean URL input field
+- Clean URL input field with playlist detection
+- Video/Audio type selector
 - One-click format fetching
-- Radio button quality selection with file size info
+- Radio button quality selection with file size and codec info
 - Custom download path selection
 - Real-time progress bar with download statistics
-- Success notifications with file path
+- Desktop shortcut for easy access
 
 ## Prerequisites
 
-- Python 3.12 or higher
-- Windows/macOS/Linux
+- **Python 3.8+** (Python 3.12 recommended)
+- **Windows 10/11** (primary support), macOS/Linux compatible
+- **Internet connection**
 
-## Installation
+## 📦 Installation Options
 
-1. **Clone or navigate to the project directory**
+### Option 1: One-Click Setup (Recommended)
 
-   ```powershell
-   cd d:\Documents\DownloadYTVideosByPy
-   ```
+```powershell
+# Just run this - it does everything!
+.\QUICK_START.bat
+```
 
-2. **Install required packages**
+### Option 2: Manual Setup
 
-   ```powershell
-   C:/Python312/python.exe -m pip install -r requirements.txt
-   ```
-
-3. **Install FFmpeg (Recommended for best quality)**
-
-   **Option A - Easy Install (Recommended):**
+1. **Clone the repository**
 
    ```powershell
-   .\install_ffmpeg.ps1
+   git clone https://github.com/El-Mostafi/youtube-downloader-pro.git
+   cd youtube-downloader-pro
    ```
 
-   **Option B - Manual Install:**
+2. **Install Python packages**
+
+   ```powershell
+   pip install -r requirements.txt
+   ```
+
+3. **Install FFmpeg** (Required for video+audio merging and MP3 conversion)
 
    ```powershell
    winget install --id=Gyan.FFmpeg -e
    ```
 
-   After installation, restart your terminal for changes to take effect.
-
-   > **Note:** FFmpeg enables merging high-quality video and audio streams and fixes video playback issues. Without it, only pre-combined formats will be available.
-
-## Usage
-
-1. **Run the application**
-
+4. **Run the app**
    ```powershell
-   C:/Python312/python.exe app.py
+   python app.py
    ```
+
+## 🚀 Usage
+
+### For First-Time Users:
+
+1. Run `QUICK_START.bat` - everything is automated!
+2. A desktop shortcut will be created
+3. Next time, just double-click the desktop icon
+
+### Manual Launch:
+
+```powershell
+python app.py
+```
 
 2. **Download a single video**:
 
