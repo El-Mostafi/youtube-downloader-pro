@@ -9,20 +9,18 @@ Write-Host ""
 
 # Check if PyInstaller is installed
 Write-Host "[1/4] Checking PyInstaller..." -ForegroundColor Yellow
-$pyinstallerInstalled = $false
-try {
-    $null = & python -m PyInstaller --version 2>&1
-    $pyinstallerInstalled = $true
-    Write-Host "  OK PyInstaller found" -ForegroundColor Green
-} catch {
+$checkResult = & python -m pip show pyinstaller 2>&1
+if ($LASTEXITCODE -ne 0) {
     Write-Host "  Installing PyInstaller..." -ForegroundColor Yellow
     python -m pip install pyinstaller
-    $pyinstallerInstalled = $true
-}
-
-if (-not $pyinstallerInstalled) {
-    Write-Host "  ERROR Could not install PyInstaller" -ForegroundColor Red
-    exit 1
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "  ERROR Could not install PyInstaller" -ForegroundColor Red
+        pause
+        exit 1
+    }
+    Write-Host "  OK PyInstaller installed" -ForegroundColor Green
+} else {
+    Write-Host "  OK PyInstaller found" -ForegroundColor Green
 }
 
 # Clean previous builds
