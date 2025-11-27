@@ -1,6 +1,19 @@
 # YouTube Downloader Pro 🎥
 
+[![GitHub release](https://img.shields.io/github/v/release/El-Mostafi/youtube-downloader-pro)](https://github.com/El-Mostafi/youtube-downloader-pro/releases)
+[![Downloads](https://img.shields.io/github/downloads/El-Mostafi/youtube-downloader-pro/total)](https://github.com/El-Mostafi/youtube-downloader-pro/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 A modern, professional desktop application for downloading YouTube videos and audio with quality selection. Built with Python using CustomTkinter for a sleek, dark-themed UI and yt-dlp for reliable downloading.
+
+## 📥 Download
+
+**Latest Release:** [Download v1.0.0](https://github.com/El-Mostafi/youtube-downloader-pro/releases/latest)
+
+Choose your preferred format:
+- **Source Code (Recommended)** - Lightweight, auto-setup (~100KB)
+- **Portable Executable** - No Python needed, ready to use (~80MB)
 
 ## ⚡ Quick Start (For New Users)
 
