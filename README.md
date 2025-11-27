@@ -9,11 +9,28 @@ A modern, professional desktop application for downloading YouTube videos and au
 
 ## 📥 Download
 
+Get YouTube Downloader Pro from multiple sources:
+
+### GitHub Releases (Primary)
+
 **Latest Release:** [Download v1.0.0](https://github.com/El-Mostafi/youtube-downloader-pro/releases/latest)
 
 Choose your preferred format:
-- **Source Code (Recommended)** - Lightweight, auto-setup (~100KB)
-- **Portable Executable** - No Python needed, ready to use (~80MB)
+
+- **Source Code** - Lightweight, auto-setup (~14KB)
+- **Portable Executable** - No Python needed, ready to use (~34MB)
+
+### SourceForge (Alternative)
+
+[![Download YouTube Downloader Pro](https://img.shields.io/sourceforge/dt/youtube-downloader-pro.svg)](https://sourceforge.net/projects/youtube-downloader-pro/files/latest/download)
+
+**Direct Download:** [SourceForge Downloads](https://sourceforge.net/projects/youtube-downloader-pro/)
+
+Benefits:
+
+- 🌍 Global CDN for faster downloads
+- 📊 Download statistics and rankings
+- 🔄 Mirror downloads for reliability
 
 ## ⚡ Quick Start (For New Users)
 

@@ -13,6 +13,7 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
 ### Setup:
 
 1. **Create a Release on GitHub:**
+
    ```bash
    # Tag your version
    git tag -a v1.0.0 -m "Release version 1.0.0"
@@ -20,6 +21,7 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
    ```
 
 2. **Go to GitHub:**
+
    - Navigate to: https://github.com/El-Mostafi/youtube-downloader-pro/releases
    - Click "Draft a new release"
    - Choose your tag (v1.0.0)
@@ -34,6 +36,7 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
    - Extract and run `QUICK_START.bat`
 
 **Advantages:**
+
 - ✅ FREE
 - ✅ Automatic version tracking
 - ✅ Download statistics
@@ -49,11 +52,13 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
 ### Setup:
 
 1. **Install PyInstaller:**
+
    ```bash
    pip install pyinstaller
    ```
 
 2. **Create executable:**
+
    ```bash
    pyinstaller --onefile --windowed --name="YouTubeDownloaderPro" --icon=icon.ico app.py
    ```
@@ -71,11 +76,13 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
 **Best for:** Maximum reach, professional distribution
 
 ### Requirements:
+
 - Windows Developer Account ($19 one-time)
 - Package as MSIX
 - Submit for review
 
 **Process:**
+
 1. Register at: https://developer.microsoft.com/
 2. Package app using Visual Studio
 3. Submit for approval
@@ -94,6 +101,7 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
 2. **Create installer script** (see `installer.iss` file created)
 
 3. **Compile:**
+
    - Open Inno Setup
    - Load `installer.iss`
    - Compile
@@ -110,11 +118,13 @@ This guide covers multiple ways to distribute your YouTube Downloader Pro so use
 ### Free Hosting Options:
 
 1. **SourceForge** (https://sourceforge.net)
+
    - Free hosting for open source
    - Download statistics
    - Professional project page
 
 2. **Softpedia** (Submit for listing)
+
    - Popular software directory
    - More exposure
 
@@ -135,6 +145,7 @@ youtube-downloader-pro
 ```
 
 **Setup:**
+
 1. Create `setup.py`
 2. Register on PyPI
 3. Upload package
@@ -147,17 +158,20 @@ youtube-downloader-pro
 ### For Maximum Reach:
 
 1. **GitHub Releases** - Primary distribution (FREE)
+
    - Source code ZIP
    - Portable executable
    - Installation instructions
 
 2. **Create Releases Badge** for README:
+
    ```markdown
    ![GitHub release](https://img.shields.io/github/v/release/El-Mostafi/youtube-downloader-pro)
    ![Downloads](https://img.shields.io/github/downloads/El-Mostafi/youtube-downloader-pro/total)
    ```
 
 3. **Submit to Software Directories:**
+
    - SourceForge
    - AlternativeTo.net
    - Softpedia
@@ -172,12 +186,14 @@ youtube-downloader-pro
 ## 🎯 Easiest Path for Users:
 
 **Current Setup (Already Implemented):**
+
 1. User clones/downloads from GitHub
 2. Runs `QUICK_START.bat`
 3. Everything auto-installs
 4. Desktop shortcut created
 
 **This is already excellent!** Most users prefer this approach for:
+
 - ✅ No manual installation
 - ✅ Always latest version
 - ✅ No bloated executables
@@ -187,32 +203,36 @@ youtube-downloader-pro
 
 ## 📊 Distribution Comparison:
 
-| Method | Difficulty | Cost | User Experience | File Size |
-|--------|-----------|------|-----------------|-----------|
-| GitHub Releases | Easy | FREE | Good (needs Python) | Small (~100KB) |
-| Executable (PyInstaller) | Medium | FREE | Excellent | Large (50-100MB) |
-| Microsoft Store | Hard | $19 | Excellent | Medium |
-| Inno Setup Installer | Medium | FREE | Very Good | Medium |
-| PyPI Package | Medium | FREE | Good (Python users) | Small |
+| Method                   | Difficulty | Cost | User Experience     | File Size        |
+| ------------------------ | ---------- | ---- | ------------------- | ---------------- |
+| GitHub Releases          | Easy       | FREE | Good (needs Python) | Small (~100KB)   |
+| Executable (PyInstaller) | Medium     | FREE | Excellent           | Large (50-100MB) |
+| Microsoft Store          | Hard       | $19  | Excellent           | Medium           |
+| Inno Setup Installer     | Medium     | FREE | Very Good           | Medium           |
+| PyPI Package             | Medium     | FREE | Good (Python users) | Small            |
 
 ---
 
 ## 🚀 Quick Action Plan:
 
 ### Immediate (5 minutes):
+
 ```bash
 # Create a release on GitHub
 git tag -a v1.0.0 -m "Initial release"
 git push origin v1.0.0
 ```
+
 Then go to GitHub → Releases → "Draft a new release"
 
 ### Short Term (1 hour):
+
 - Create executable with PyInstaller
 - Upload to GitHub Releases
 - Add download badges to README
 
 ### Long Term (optional):
+
 - Submit to SourceForge
 - Create Microsoft Store package
 - Build community
@@ -224,6 +244,7 @@ Then go to GitHub → Releases → "Draft a new release"
 **Start with GitHub Releases + Executable**
 
 This gives you:
+
 1. Professional distribution
 2. Both source code and ready-to-use executable
 3. Download statistics
@@ -231,6 +252,7 @@ This gives you:
 5. FREE
 
 Users can choose:
+
 - Download source → Run `QUICK_START.bat` (lightweight)
 - Download .exe → Double-click and use (convenient)
 

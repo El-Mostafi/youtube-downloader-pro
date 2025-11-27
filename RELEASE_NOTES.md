@@ -7,24 +7,28 @@ A modern, professional desktop application for downloading YouTube videos and au
 ### ✨ Key Features
 
 #### Video Downloads
+
 - 📺 **Multiple Quality Options** - From 144p to 4K resolution
 - 🎨 **Format Selection** - MP4, WEBM with codec information (H.264, VP9, AV1)
 - 📊 **Real-time Progress** - Download speed, size, and ETA
 - 🎬 **High Quality** - Automatic video+audio merging with FFmpeg
 
 #### Audio Downloads
+
 - 🎵 **Extract Audio** - Download as MP3 with quality selection
 - 🎧 **Multiple Bitrates** - 128kbps, 192kbps, 256kbps
 - 🔊 **Universal Format** - Compatible with all devices
 - 📻 **Fast Conversion** - Automatic AAC/MP3 conversion
 
 #### Playlist Support
+
 - 📋 **Batch Downloads** - Download entire playlists
 - ✅ **Selective Download** - Choose specific videos/audio
 - 🎯 **Quality Presets** - Best, 1080p, 720p, 480p, 360p
 - 📈 **Progress Tracking** - Per-video progress with overall status
 
 #### User Experience
+
 - 🎨 **Modern UI** - Dark-themed, professional interface
 - ⚡ **One-Click Setup** - Automatic dependency installation
 - 🖥️ **Desktop Shortcut** - Quick access after setup
@@ -34,6 +38,7 @@ A modern, professional desktop application for downloading YouTube videos and au
 ### 📦 Installation Options
 
 #### Option 1: Source Code (Recommended)
+
 **Lightweight and auto-setup**
 
 1. Download `youtube-downloader-pro-v1.0.0-source.zip`
@@ -41,16 +46,19 @@ A modern, professional desktop application for downloading YouTube videos and au
 3. Done! Everything installs automatically
 
 **What it does:**
+
 - ✅ Checks Python
 - ✅ Installs packages
 - ✅ Creates shortcut
 - ✅ Launches app
 
 **Requirements:**
+
 - Windows 10/11
 - Python 3.8+ (prompts to install if missing)
 
 #### Option 2: Portable Executable
+
 **No Python needed, ready to use**
 
 1. Download `youtube-downloader-pro-v1.0.0-portable.zip`
@@ -62,12 +70,14 @@ A modern, professional desktop application for downloading YouTube videos and au
 ### 🛠️ Technical Details
 
 **Built With:**
+
 - Python 3.12
 - CustomTkinter 5.2.1 - Modern UI framework
 - yt-dlp 2025.11.12 - YouTube downloader
 - FFmpeg - Audio/video processing
 
 **Supported Platforms:**
+
 - Windows 10/11 (primary)
 - Windows 7/8 (untested but should work)
 - macOS/Linux (source code only)
@@ -75,13 +85,13 @@ A modern, professional desktop application for downloading YouTube videos and au
 ### 📸 Screenshots
 
 ![Main Interface](https://via.placeholder.com/800x600?text=Main+Interface)
-*Modern dark-themed interface with quality selection*
+_Modern dark-themed interface with quality selection_
 
 ![Download Progress](https://via.placeholder.com/800x600?text=Download+Progress)
-*Real-time progress with speed and ETA*
+_Real-time progress with speed and ETA_
 
 ![Playlist Support](https://via.placeholder.com/800x600?text=Playlist+Download)
-*Batch download entire playlists*
+_Batch download entire playlists_
 
 ### 📝 What's New in v1.0.0
 
@@ -126,4 +136,4 @@ This project is for educational purposes. Please respect YouTube's Terms of Serv
 
 **Enjoy downloading! 🎥**
 
-*Found a bug? [Report it here](https://github.com/El-Mostafi/youtube-downloader-pro/issues)*
+_Found a bug? [Report it here](https://github.com/El-Mostafi/youtube-downloader-pro/issues)_

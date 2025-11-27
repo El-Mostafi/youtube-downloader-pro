@@ -58,67 +58,12 @@ Write-Host ""
 Write-Host "[4/4] Creating distribution package..." -ForegroundColor Yellow
 
 $version = "1.0.0"
-$distFolder = "youtube-downloader-pro-v$version"
+$zipName = "youtube-downloader-pro-v$version-portable.zip"
 
-# Create distribution folder
-if (Test-Path $distFolder) { Remove-Item -Recurse -Force $distFolder }
-New-Item -ItemType Directory -Path $distFolder | Out-Null
-
-# Copy files
-Copy-Item "dist\YouTubeDownloaderPro.exe" $distFolder
-Copy-Item "README.md" $distFolder
-Copy-Item "*.md" $distFolder -Exclude "README.md"
-
-# Create README for executable
-@"
-# YouTube Downloader Pro - Portable Edition
-
-## Quick Start
-
-1. Double-click `YouTubeDownloaderPro.exe`
-2. That's it! The app will launch immediately.
-
-## System Requirements
-
-- Windows 10/11 (64-bit)
-- Internet connection
-- FFmpeg (optional, for best quality)
-
-## Installing FFmpeg (Optional but Recommended)
-
-Open PowerShell as Administrator and run:
-``````
-winget install --id=Gyan.FFmpeg -e
-``````
-
-## Features
-
-- Download YouTube videos in multiple qualities
-- Extract audio as MP3
-- Download entire playlists
-- Real-time progress tracking
-- Modern dark UI
-
-## Notes
-
-- First launch may take 10-15 seconds (unpacking)
-- Antivirus may show a warning (false positive - the app is safe)
-- File size: ~80-100MB (includes Python runtime)
-
-## Source Code
-
-https://github.com/El-Mostafi/youtube-downloader-pro
-
----
-
-Enjoy downloading! 🎥
-"@ | Out-File -FilePath "$distFolder\README_PORTABLE.txt" -Encoding UTF8
-
-# Create ZIP
-Write-Host "  Creating ZIP archive..." -ForegroundColor Cyan
-$zipName = "$distFolder-portable.zip"
+# Create ZIP with just the exe
+Write-Host "  Creating ZIP archive with executable only..." -ForegroundColor Cyan
 if (Test-Path $zipName) { Remove-Item -Force $zipName }
-Compress-Archive -Path $distFolder -DestinationPath $zipName
+Compress-Archive -Path "dist\YouTubeDownloaderPro.exe" -DestinationPath $zipName
 
 Write-Host "  OK Distribution package created" -ForegroundColor Green
 

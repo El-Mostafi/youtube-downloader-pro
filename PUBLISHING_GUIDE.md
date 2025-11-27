@@ -27,16 +27,19 @@ git push origin v1.0.0
 ### Step 2: Create GitHub Release (5 minutes)
 
 1. **Go to Releases:**
+
    - Visit: https://github.com/El-Mostafi/youtube-downloader-pro/releases
    - Click **"Draft a new release"**
 
 2. **Fill Release Info:**
+
    - **Choose tag:** Select `v1.0.0` from dropdown
    - **Release title:** `YouTube Downloader Pro v1.0.0`
    - **Description:** Copy content from `RELEASE_NOTES.md`
 
 3. **Upload Files:**
    Drag and drop these files:
+
    - `youtube-downloader-pro-v1.0.0-source.zip`
    - (Optional) Build executable first and add `.exe` file
 
@@ -60,6 +63,7 @@ Then add `portable.zip` to your GitHub Release.
 ### Step 4: Update README Badges (1 minute)
 
 Badges are already added! They'll show:
+
 - Latest version
 - Total downloads
 - License
@@ -68,6 +72,7 @@ Badges are already added! They'll show:
 ### Step 5: Announce (2 minutes)
 
 Share on:
+
 - ✅ GitHub Discussions (if enabled)
 - ✅ Reddit: r/Python, r/learnpython, r/youtube
 - ✅ Twitter/X with #Python #YouTube #OpenSource
@@ -100,11 +105,13 @@ git push origin v1.0.0
 ### Users Can Now:
 
 1. **Find your app:**
+
    ```
    https://github.com/El-Mostafi/youtube-downloader-pro/releases
    ```
 
 2. **Download:**
+
    - Click on `.zip` file
    - Extract
    - Run `QUICK_START.bat`
@@ -152,12 +159,14 @@ git push origin v1.1.0
 ### Easy Additions (FREE):
 
 1. **SourceForge** (5 min)
+
    - Visit: https://sourceforge.net
    - Create project
    - Upload release files
    - More exposure
 
 2. **AlternativeTo** (2 min)
+
    - Add your app listing
    - Get reviews and votes
    - SEO benefits
@@ -181,6 +190,7 @@ git push origin v1.1.0
 ### Free Promotion:
 
 1. **Reddit Posts:**
+
    ```
    r/Python - "I built a YouTube downloader with Python"
    r/learnpython - "My first Python GUI project"
@@ -189,16 +199,18 @@ git push origin v1.1.0
    ```
 
 2. **Dev.to Article:**
+
    - "How I Built a YouTube Downloader with Python"
    - Include screenshots and code snippets
    - Link to GitHub
 
 3. **Twitter/X:**
+
    ```
    🚀 Just released YouTube Downloader Pro v1.0!
 
    ✅ Download videos & audio
-   ✅ Playlist support  
+   ✅ Playlist support
    ✅ Modern dark UI
    ✅ Open source
 
@@ -210,14 +222,17 @@ git push origin v1.1.0
 ### GitHub Optimization:
 
 1. **Add Topics:**
+
    - Go to repo main page
    - Click ⚙️ next to "About"
    - Add topics: `youtube`, `downloader`, `python`, `gui`, `customtkinter`
 
 2. **Add Description:**
+
    - "Modern YouTube video & audio downloader with GUI"
 
 3. **Add Website:**
+
    - Link to releases page
 
 4. **Enable Discussions:**
@@ -252,12 +267,14 @@ Your app is **production-ready** and can be published right now!
 ## 💡 Pro Tips
 
 1. **Version numbering:**
+
    - v1.0.0 = Major.Minor.Patch
    - v1.0.1 = Bug fix
    - v1.1.0 = New feature
    - v2.0.0 = Breaking change
 
 2. **Release frequency:**
+
    - Start with stable releases
    - Listen to user feedback
    - Fix critical bugs quickly
