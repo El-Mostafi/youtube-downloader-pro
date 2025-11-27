@@ -24,7 +24,7 @@ Choose your preferred format:
 
 [![Download YouTube Downloader Pro](https://img.shields.io/sourceforge/dt/youtube-downloader-pro.svg)](https://sourceforge.net/projects/youtube-downloader-pro/files/latest/download)
 
-**Direct Download:** [SourceForge Downloads](https://sourceforge.net/projects/youtube-downloader-pro/)
+**Direct Download:** [SourceForge Downloads](https://sourceforge.net/projects/el-mostafi-yt-downloader/files/v1.0.0/el-mostafi-yt-downloader.zip/download)
 
 Benefits:
 
